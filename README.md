@@ -1,4 +1,4 @@
-# [Your Name] - Portfolio Website
+# [Hrudhay.S] - Portfolio Website
 
 A responsive portfolio website showcasing my projects and skills as a web developer.
 
