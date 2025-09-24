@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    color: whitesmoke;
+    background: linear-gradient(skyblue, pink);
+    line-height: 1.5;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header {
+    background-color: rgb(28, 130, 171);
+    padding: 16px 0;
+    position: sticky;
+    margin: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 5px;
+}
+
+nav ul li a {
+    margin: 0 15px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    margin: 30px 20px;
+    border-radius: 12px;
+    background-color: rgb(22, 77, 127);
+    border: 2px solid rgb(249, 168, 181);
+}
+
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header p {
+    font-size: 19.2px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    transition: background 0.3s ease;
+    background: linear-gradient(135deg, deepskyblue, cadetblue);
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, cadetblue, rgb(66, 129, 180));
+}
+
+
+#about img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    border: 2px solid steelblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 16px;
+}
+
+#about li {
+    background: aliceblue;
+    color: black;
+    border-left: 4px solid steelblue;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+
+.project {
+    margin-top: 32px;
+    border-top: 2px dashed deepskyblue;
+    padding-top: 32px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: grid;
+    gap: 16px;
+}
+
+label {
+    font-weight: 600;
+    color: rgb(147, 172, 192);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: steelblue;
+    outline: none;
+}
+
+button[type="submit"] {
+    background: steelblue;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: navy;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: steelblue;
+    font-weight: 600;
+    background: linear-gradient(45deg, lightblue, lightskyblue);
+    padding: 8px 16px;
+    border-radius: 9999px;
+    transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+    background-color: steelblue;
+    color: white;
+}
+
+    
+    
+    
+
